@@ -7,8 +7,13 @@ import { NavController } from 'ionic-angular';
 })
 export class ContactPage {
 
+  public n;
   constructor(public navCtrl: NavController) {
+    
+  }
 
+  showNotifications() {
+    this.n = 5;
   }
 
 }

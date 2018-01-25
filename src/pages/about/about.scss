@@ -1,3 +1,20 @@
 page-about {
-
+    #notification-button {            
+        position: relative;
+        width: 50px;
+        top: 5px;
+        right: 5px;
+        overflow: visible !important;
+        font-size: 30px !important;
+    }
+    
+    
+    #notifications-badge {
+        background-color: red;
+        position: absolute;
+        width: 2rem;
+        top: 0px;
+        right: 13px;
+        border-radius: 50%;
+    }
 }

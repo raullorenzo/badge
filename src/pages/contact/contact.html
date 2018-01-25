@@ -13,5 +13,18 @@
       <ion-icon name="ionic" item-start></ion-icon>
       @ionicframework
     </ion-item>
+    <ion-item>
+      <ion-icon name="logo-twitter" item-start></ion-icon>
+      Followers
+      <ion-badge item-end>260k</ion-badge>
+      <button ion-button icon-only (click)="showNotifications()">
+        <ion-badge *ngIf="n" color="danger">{{ n }}</ion-badge>
+        <ion-icon name="notifications"></ion-icon>
+      </button>
+    </ion-item>
+    <ion-item>
+      <ion-badge *ngIf="n" color="danger">{{ n }}</ion-badge>
+      <ion-icon name='notifications' item-start style="color: #55acee"></ion-icon>
+    </ion-item>
   </ion-list>
 </ion-content>
